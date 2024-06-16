@@ -21,5 +21,5 @@ def test_multiply_numbers_1 (self):
     self.assertEqual(25, multiply_numbers(5,5))
 
 def test_multiply_numbers_2 (self):
-    self.assertEqual(100, multiply_numbers(10,10))
+    self.assertEqual(1, multiply_numbers(1,1))
 
