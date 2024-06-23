@@ -4,10 +4,10 @@ from repetition import get_factorial
 from repetition import sum_odd_numbers
 
 
-# Homework #3 Menu
+# Homework #4 Menu
 
 def display_menu():
-    print("Welcome To the Homework #3 Menu! - Which Option Would You Like To Choose?")
+    print("Welcome To the Homework #4 Menu! - Which Option Would You Like To Choose?")
     print("Option 1 - Get Factorial")
     print("Option 2 - Sum Odd Numbers")
     print("Option 3 - Exit")
@@ -51,7 +51,7 @@ def option_3():
         exit()
 
     elif exit_choice == 2:
-         homework_3_menu()
+         homework_4_menu()
     else:
          print("Unknown Choice... Please Try Again")
          option_3()
@@ -65,7 +65,7 @@ def continue_option():
     continue_choice = int(input(""))
 
     if continue_choice == 1:
-        homework_3_menu()
+        homework_4_menu()
     
     elif continue_choice == 2: 
           option_3()
@@ -74,7 +74,7 @@ def continue_option():
          print("Unknown Choice... Please Try Again")
          continue_choice()
 
-def homework_3_menu():
+def homework_4_menu():
 
     display_menu()
 
@@ -94,4 +94,4 @@ def homework_3_menu():
              option_3()
 
 
-homework_3_menu()
+homework_4_menu()
